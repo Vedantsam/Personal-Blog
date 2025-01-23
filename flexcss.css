@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Italianno&display=swap');
+
+
+body{
+    background-image: url(road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    width: 1000px;
+    height: 50px;
+    padding: 20px;
+    border: 3px solid rgba(0,0,0, 0);
+    margin: 0px 100px 0px 250px ;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 70px;
+    display: flex;
+    background-position: center;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav .nav-list .nav-items{
+    /* border: 2px solid rgba(0, 0, 0,0.5); */
+    text-decoration: none;
+    backface-visibility: visible;
+    color: aliceblue;
+    margin: 20px 10px;
+    position: relative;
+   
+
+}
+
+.nav .nav-list .nav-items a{
+    text-decoration: none;
+    backface-visibility: visible;
+    color: aliceblue;
+    text-align: justify;
+}
+.nav .nav-list{
+     display: flex;
+    justify-content: space-around;
+
+}
+.nav .logo{
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    margin: -8px 150px  800px 0;
+    border-radius: 50%;
+    /* border: white; */
+    background-image:url(logo3.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+    border: 2px solid rgba(0, 0, 0,0.5);
+    /* background-position: 10px; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input{
+    width: auto;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+    border-radius: 70px;
+    background-color: rgba(0, 0, 0,0.5);
+
+}
+.content article{
+    width: 20%;
+    height: 500px;
+    background-color: rgba(120, 105, 105, 0.5);
+    line-height: 30px;
+    background-color: rgba(0, 0, 0,0.5);
+    margin: 150px auto 0 12%;
+    border-radius: 50px 50px 50px 50px ; 
+    float: left ;
+    margin-top: 200px;
+    padding: 5px;
+    transition: all 1s ease;
+    display: block;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+
+}
+.content article h1{
+    padding: 3% ;
+    /* margin-top: 100px; */
+    line-height: 30px;
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.content article:hover{
+    /* color: rgb(69, 65, 65); */
+    margin-top: -2px;
+    color: aliceblue;
+    background-blend-mode: multiply;
+    
+}
+/* .content h1{
+    font-size: 36px ;
+    margin-bottom: 20px;
+    text-decoration-line: underline overline;
+} */

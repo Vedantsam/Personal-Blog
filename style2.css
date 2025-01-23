@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+header{
+    height:50px;
+    width :auto100px;
+    background-color: rgb(67, 120, 235);
+    text-align :center;
+    text-shadow: 10%;
+}
+.box1
+{
+    height: 500px;
+    width: 1500px;
+    border: 2px solid rgb(66, 2, 7);
+    border-radius: 5%;
+    margin: 10px;
+    background-color: rgb(210, 30, 30);
+
+}
+.border{
+    height: 450px;
+    width: 700px;
+    border: 2px solid rgb(67, 140, 235);
+    border-radius: 15%;
+    margin: 10px;
+    background-color: rgb(94, 104, 218);
+}
+
+.border p{
+    text-align: center;
+    text-shadow: 50%;
+}
+
+.text {
+    text-decoration: solid;
+    text-align:right;
+    font-family: "Italianno" cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+

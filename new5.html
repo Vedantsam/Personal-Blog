@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glowing Button</title>
+  <style>
+    .glow-button {
+      background-color: #1e90ff; 
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(30, 144, 255, 0.2); 
+      transition: all 0.3s ease-in-out; 
+    }
+
+    .glow-button:hover {
+      box-shadow: 0 0 30px rgba(30, 144, 255, 0.8), 
+                  0 0 60px rgba(30, 144, 255, 0.6);
+      transform: scale(1.05); 
+    }
+  </style>
+</head>
+<body>
+  <button class="glow-button">Button 1</button>
+</body>
+</html>

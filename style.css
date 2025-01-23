@@ -1,0 +1,37 @@
+section{
+	width: 100%;
+	height: 1500px;
+	background-image: url('img2.jpg'),url('peacock.png');
+    background-position: topright;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    text-decoration: wavy;
+    text-align: center;
+}
+header{
+    height:50px;
+    width :auto;
+    background-color: rgb(35, 86, 195);
+    text-align :center;
+}
+footer{
+    height: 70px;
+    width: auto;
+    text-align: center;
+    background-image: Linear-gradient(blueviolet,blue);
+    text-decoration: wavy;
+    
+}
+section1{
+    width: 100%;
+	height: 500px;
+    background-size: cover;
+    text-decoration: wavy;
+    background-color: aqua;
+}
+.section1:hover
+{
+    background-color: blueviolet;
+
+}
